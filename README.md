@@ -1,1 +1,1 @@
-# Sinergia-Solar-v2
+# Sinergia

@@ -16,6 +16,10 @@ html, body {
 
 /*---- Navbar ----*/
 
+.container-fluid{
+    background-color: #264653;
+}
+
 .nav-item{
     margin-top: 50px;
     padding: 5px;
@@ -222,7 +226,8 @@ html, body {
     background-color:#2A9D8F;
     padding:10px;
     justify-content: space-around;
-    width:100vw;
+    width:100%;
+    margin-bottom: 0;
 }
 
 .projeto{
@@ -234,6 +239,16 @@ html, body {
     display: flex;
     margin: auto;
 }
+
+#social{
+    width: 400px;
+}
+
+.icones{
+    width: 100%;
+    padding: 10%;
+}
+
 
   /* span-style ------------------------------------ */
 
@@ -251,4 +266,8 @@ html, body {
 
 .cor-de-pele{
     color: #DEB1B1;
+}
+
+.cor-branco{
+    color: white;
 }
